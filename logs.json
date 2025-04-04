@@ -1,6 +1,6 @@
 {
     "logs":[
-      { time": "2025-04-04 10:00", "status": "Kazım başladı" },
+      { "time": "2025-04-04 10:00", "status": "Kazım başladı" },
       { "time": "2025-04-04 12:30", "status": "Havuz bağlantısı kesldi" },
       { "time": "2025-04-04 12:32", "status": "Yeniden bağlanıldı" },
     ]
