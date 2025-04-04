@@ -1,8 +1,9 @@
+console.log("viewer.js aktif!");
 if (localStorage.getItem("auth") !=="ok") {
   window.location.href="index.html";
 }
 
-fetch("logs.json")
+fetch("logs.json") .catch(error => console.error("HATA:", error));
   .then(res=>res.json[))
   .then[data=> {
     const tbody=documemt.querySelector("#logTable tbody");
